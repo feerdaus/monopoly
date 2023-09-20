@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  margin: 50px auto;
+  border-collapse: collapse;
+  background-color: paleturquoise;
+  border-radius: 30px;
+}
+
+td {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  position: relative;
+}
+
+.square {
+  width: 200px;
+}
+
+.left {
+  width: 40px;
+  height: 100%;
+  margin-left: auto;
+  border-left: 3px solid black;
+}
+
+.blue {
+  background-color: rgb(9, 9, 201);
+}
+.green {
+  background-color: green;
+}
+
+.top {
+  height: 30px;
+  width: 100%;
+  border-top: 3px solid black;
+}
+
+.gold {
+  background-color: rgba(218, 165, 32, 0.315);
+  position: absolute;
+  bottom: 0;
+}
+.purple {
+  background-color: purple;
+  position: absolute;
+  bottom: 0;
+}
+
+.right {
+  width: 40px;
+  height: 100%;
+  margin-right: auto;
+  border-right: 3px solid black;
+}
+
+.pink {
+  background-color: pink;
+}
+.orange {
+  background-color: orange;
+}
+
+.bottom {
+  height: 40px;
+  width: 100%;
+  margin-bottom: auto;
+  border-top: 3px solid black;
+}
+
+.yellow {
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+}
+.red {
+  background-color: red;
+  position: absolute;
+  top: 0;
+}
+
+.h1-box {
+  background: red;
+  border-radius: 4px;
+  padding: 20px;
+  width: 1000px;
+  transform: rotate(-45deg);
+  border: 20px ridge white;
+}
+h1 {
+  color: white;
+  font-size: 150px;
+  text-align: center;
+}
+
+.question {
+  width: 300px;
+  position: absolute;
+  left: 10%;
+  top: 80px;
+  background-color: orange;
+  border: 3px solid black;
+  transform: rotate(-45deg);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
